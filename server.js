@@ -31,7 +31,7 @@ pool.connect((err, client, release) => {
 
 
 app.use(cors({
-    origin: '*', 
+    origin: 'react-site-production-a693.up.railway.app', 
     credentials: true, // 토큰 (JWT) 전송을 위해 필수
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'] // OPTIONS 포함 필수
 }));
