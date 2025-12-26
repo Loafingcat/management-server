@@ -77,5 +77,5 @@ npm install
 # 서버 실행
 node server.js
 
-## 🔗 연관 프로젝트
+# 🔗 연관 프로젝트
 Frontend Repository (React): React-site (Vercel)
