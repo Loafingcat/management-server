@@ -16,7 +16,7 @@
 
 
 
-### 📂 구조화된 프로젝트 폴더
+# 📂 구조화된 프로젝트 폴더
 ```text
 management-server/
 ├── 📂 config/          # DB 연결 설정 (PostgreSQL Pool 관리)
@@ -24,6 +24,7 @@ management-server/
 ├── 📂 routes/          # 도메인별 라우팅 분리 (Auth, Customers)
 ├── 📄 server.js        # 서버 진입점 및 의존성 주입
 └── 📄 .env             # 환경 변수 관리 (보안을 위해 .gitignore 등록)
+
 
 # 🚀 Backend Refactoring & Migration Project
 
